@@ -1,12 +1,66 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
     background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);
     /* min-height:100vh ; */
 }
 
+#weTake{
+    font-size: 3rem;
+}
+#weTake h6{
+    width: 85%;
+    font-weight: lighter;
+}
+#weTake h1{
+    width: 85%;
+  
+}
+
+#navItem{
+    order: 1;
+}
+
+.imgTaille{
+    width: 48px;
+    height: 48px;
+}
+
+#content1{
+    min-height: 100vh;
+    width: 70%;
+}
+
+
 @media screen and (max-width: 767px) {
+#navItem{
+    flex-direction: row;
+}
+#content1{
+    flex-direction: row;
+}
+
+
     .weTake{
         flex-direction: column;
+    }
+    #weTake{
+        margin-top: 10%;
+        font-size: 2.5rem;
+        text-align: center;
+    }
 
+#weTake h1{
+    width: 100%;
+    font-size: 2rem;
+}
+#weTake h6{
+    font-weight: lighter;
+}
+    .firstButton,.secondButton{
+        width: 50%;
     }
 }
     
