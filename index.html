@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,200;1,500;1,800&display=swap" rel="stylesheet"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
@@ -24,7 +27,7 @@
                 <img src="assets/img/btnBurger.svg" alt="bouton pour ouvrir le menu">
             </span>
           </button>
-          <ul class="navbar-nav ms-auto align-items-center mx-lg-5 order-1">
+          <ul class="navbar-nav ms-auto align-items-center mx-lg-5" id="navItem">
             <li class="nav-item mx-lg-3">
              <a href="#">
                  <img src="assets/img/navBarLoupe.svg" alt="bouton represantant une loupe pour effectuer une recherche">
@@ -50,34 +53,24 @@
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-            <!-- <ul class="navbar-nav ms-auto align-items-center mx-lg-5">
-              <li class="nav-item mx-lg-3">
-               <a href="#">
-                   <img src="assets/img/navBarLoupe.svg" alt="">
-               </a>
-              <li class="nav-item">
-               <a href="#">
-                   <img src="assets/img/NavBarCaddie.svg" alt="">
-               </a>
-              </li>
-            </ul> -->
           </div>
         </div>
       </nav>
       <!-- ************************************************************ -->
       <!-- à faire >> déplacer le caddie et la loupe dans le menu burger -->
       <!-- ************************************************************* -->
-      <div class="container col-12 d-flex align-items-center weTake">
-        <div class=" align-items-center col-md-6  p-3">
-          <h1 class="col-12 col-md-8 display-3 fw-bold">We Take Care of the Future</h1>
-          <h6 class="fs-3 col-12 col-md-8">We know how large obects will act, but things on a small scale.</h6>
-          <button type="button" class="btn btn-primary rounded-pill col-12 col-md-5 col-lg-3">Get Quote Now</button>
-          <button type="button" class="btn btn-outline-primary rounded-pill col-12 col-md-3">Learn More</button>
+      <div class="container col-12 d-flex align-items-center weTake w-75" id="weTake">
+        <div class=" align-items-center justify-content-center col-md-6 p-3">
+          <h1 class="col-12 col-md- display-5 fw-bold">We Take Care of the Future</h1>
+          <h6 class="fs-5 col-12 col-md-7 w-auto">We know how large obects will act, but things on a small scale.</h6>
+          <button type="button" class="btn btn-primary rounded-pill col-12 col-md-5 col-lg-3 firstButton w-auto m-auto">Get Quote Now</button>
+          <button type="button" class="btn btn-outline-primary rounded-pill col-12 col-md-3 secondButton w-auto m-auto">Learn More</button>
         </div>
         <img src="assets/img/secretaireHeader.png" class="col-md-6" alt="photo d'une secrétaire accueillante et souriante avec un casque micro">
       </div>
-
 </header>
+
+
     
     
 
