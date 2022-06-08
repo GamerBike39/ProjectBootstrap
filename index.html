@@ -10,20 +10,31 @@
 </head>
 <body>
 
-    <header>
+    <header class="min-vh100">
     <nav class="navbar navbar-light bg-transparent navbar-expand-md">
         <div class="container">
           <a class="navbar-brand" href="#">
-           <h3>Capgemen</h3>
+           <h3 class="fw-bold">Capgemen</h3>
           </a>
           <button class="navbar-toggler collapsed" type="button"
             data-bs-toggle="collapse" data-bs-target="#navbarNav3"
             aria-controls="navbarNav3" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar">
-                <img src="assets/img/btnBurger.svg" alt="">
+                <img src="assets/img/btnBurger.svg" alt="bouton pour ouvrir le menu">
             </span>
           </button>
+          <ul class="navbar-nav ms-auto align-items-center mx-lg-5 order-1">
+            <li class="nav-item mx-lg-3">
+             <a href="#">
+                 <img src="assets/img/navBarLoupe.svg" alt="bouton represantant une loupe pour effectuer une recherche">
+             </a>
+            <li class="nav-item">
+             <a href="#">
+                 <img src="assets/img/NavBarCaddie.svg" alt="bouton represantant un caddie qui fait office de panier">
+             </a>
+            </li>
+          </ul>
           <div class="navbar-collapse collapse" id="navbarNav3">
             <ul class="navbar-nav ms-auto align-items-center">
               <li class="nav-item">
@@ -39,7 +50,7 @@
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-            <ul class="navbar-nav ms-auto align-items-center mx-lg-5">
+            <!-- <ul class="navbar-nav ms-auto align-items-center mx-lg-5">
               <li class="nav-item mx-lg-3">
                <a href="#">
                    <img src="assets/img/navBarLoupe.svg" alt="">
@@ -49,19 +60,29 @@
                    <img src="assets/img/NavBarCaddie.svg" alt="">
                </a>
               </li>
-            </ul>
-            <span class="navbar pasVoir">
-                <img src="assets/img/btnBurger.svg" class="mx-5">
-            </span>
+            </ul> -->
           </div>
         </div>
       </nav>
-      <!-- à voir pour opti le code de pasVoir -->
+      <!-- ************************************************************ -->
+      <!-- à faire >> déplacer le caddie et la loupe dans le menu burger -->
+      <!-- ************************************************************* -->
+      <div class="container col-12 d-flex align-items-center weTake">
+        <div class=" align-items-center col-md-6  p-3">
+          <h1 class="col-12 col-md-8 display-3 fw-bold">We Take Care of the Future</h1>
+          <h6 class="fs-3 col-12 col-md-8">We know how large obects will act, but things on a small scale.</h6>
+          <button type="button" class="btn btn-primary rounded-pill col-12 col-md-5 col-lg-3">Get Quote Now</button>
+          <button type="button" class="btn btn-outline-primary rounded-pill col-12 col-md-3">Learn More</button>
+        </div>
+        <img src="assets/img/secretaireHeader.png" class="col-md-6" alt="photo d'une secrétaire accueillante et souriante avec un casque micro">
+      </div>
+
 </header>
     
     
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

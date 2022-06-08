@@ -1,11 +1,12 @@
 header{
     background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);
-    min-height:100vh ;
+    /* min-height:100vh ; */
 }
 
 @media screen and (max-width: 767px) {
-    .pasVoir{
-        display: none;
+    .weTake{
+        flex-direction: column;
+
     }
 }
     
