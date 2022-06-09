@@ -25,7 +25,6 @@ header {
 
 #weTake h1 {
     width: 85%;
-
 }
 
 #navItem {
@@ -59,8 +58,17 @@ header {
 .card h5{
     font-size: 16px;
 }
-#content2,#content3{
-    min-height: 70vh;
+#content2,#content3,#content4{
+    min-height: 100vh;
+}
+
+#content2, #content4{
+    background: #FAFAFA;
+}
+
+#content4 img{
+    height: 50px;
+    width: auto;
 }
 
 
