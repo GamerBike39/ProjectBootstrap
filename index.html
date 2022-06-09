@@ -1,111 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,200;1,500;1,800&display=swap" rel="stylesheet"> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,200;1,500;1,800&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Document</title>
 </head>
+
 <body>
 
-    <header class="min-vh100">
+  <header class="min-vh100">
     <nav class="navbar navbar-light bg-transparent navbar-expand-md">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-           <h3 class="fw-bold">Capgemen</h3>
-          </a>
-          <button class="navbar-toggler collapsed" type="button"
-            data-bs-toggle="collapse" data-bs-target="#navbarNav3"
-            aria-controls="navbarNav3" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar d-flex order-2">
-                <img src="assets/img/btnBurger.svg" alt="bouton pour ouvrir le menu">
-            </span>
-          </button>
-          <ul class="navbar-nav ms-auto align-items-center mx-lg-5" id="navItem">
-            <li class="nav-item mx-lg-3">
-             <a href="#">
-                 <img src="assets/img/navBarLoupe.svg" alt="bouton represantant une loupe pour effectuer une recherche">
-             </a>
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <h3 class="fw-bold">Capgemen</h3>
+        </a>
+        <button class="navbar-toggler collapsed" id="burgerBtn" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav3" aria-controls="navbarNav3" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar d-flex order-2">
+            <img src="assets/img/btnBurger.svg" alt="bouton pour ouvrir le menu">
+          </span>
+        </button>
+        <ul class="navbar-nav align-items-center mx-lg-5" id="navItem">
+          <li class="nav-item mx-lg-3">
+            <a href="#">
+              <img src="assets/img/navBarLoupe.svg" alt="bouton represantant une loupe pour effectuer une recherche">
+            </a>
+          <li class="nav-item">
+            <a href="#">
+              <img src="assets/img/NavBarCaddie.svg" alt="bouton represantant un caddie qui fait office de panier">
+            </a>
+          </li>
+        </ul>
+        <div class="navbar-collapse collapse" id="navbarNav3">
+          <ul class="navbar-nav ms-auto align-items-center">
             <li class="nav-item">
-             <a href="#">
-                 <img src="assets/img/NavBarCaddie.svg" alt="bouton represantant un caddie qui fait office de panier">
-             </a>
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
-          <div class="navbar-collapse collapse" id="navbarNav3">
-            <ul class="navbar-nav ms-auto align-items-center">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
         </div>
-      </nav>
-      <!-- ************************************************************ -->
-      <!-- à faire >> déplacer le caddie et la loupe dans le menu burger -->
-      <!-- ************************************************************* -->
-      <div class="container col-12 d-flex align-items-center weTake w-75" id="weTake">
-        <div class=" align-items-center justify-content-center col-md-6 p-3">
-          <h1 class="col-12 col-md- display-5 fw-bold">We Take Care of the Future</h1>
-          <h6 class="fs-5 col-12 col-md-7 w-auto">We know how large obects will act, but things on a small scale.</h6>
-          <button type="button" class="btn btn-primary rounded-pill col-12 col-md-5 col-lg-3 firstButton w-auto m-auto">Get Quote Now</button>
-          <button type="button" class="btn btn-outline-primary rounded-pill col-12 col-md-3 secondButton w-auto m-auto">Learn More</button>
+      </div>
+    </nav>
+    <!-- ************************************************************ -->
+    <!-- à faire >> déplacer le caddie et la loupe dans le menu burger -->
+    <!-- ************************************************************* -->
+    <div class="container col-12 d-flex align-items-center weTake w-75" id="weTake">
+      <div class=" align-items-center justify-content-center col-md-6 p-3">
+        <h1 class="col-12 col-md- display-5 fw-bold">We Take Care of the Future</h1>
+        <h6 class="fs-5 col-12 col-md-7 w-auto">We know how large obects will act, but things on a small scale.</h6>
+        <button type="button"
+          class="btn btn-primary rounded-pill col-12 col-md-5 col-lg-3 firstButton w-auto m-auto">Get Quote Now</button>
+        <button type="button"
+          class="btn btn-outline-primary rounded-pill col-12 col-md-3 secondButton w-auto m-auto">Learn More</button>
+      </div>
+      <img src="assets/img/secretaireHeader.png" class="col-md-6" id="secretaire"
+        alt="photo d'une secrétaire accueillante et souriante avec un casque micro">
+    </div>
+  </header>
+
+
+  <section id="content1" class=" m-auto">
+    <h2 class="col-12 fw-bold text-center display-2 mt-5">WHY<br>CHOOSE US</h2>
+    <p class="col-12 fw-bold text-center mt-3 w-75 m-auto">Problems trying to resolve
+      the conflict between the
+      two major realms of Classical
+      physics: Newtonian mechanics </p>
+
+
+    <div class="card-deck col-12 col-md-10 col-lg-8 mt-5 d-flex w-auto m-auto row">
+      <div
+        class="card d-flex align-items-center justify-content-center m-auto col-md-4 p-3 bg-light col-lg-3 col-md-12">
+        <img src="assets/img/whyVector1.svg" class="card-img-top imgTaille" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Web Developpement</h5>
         </div>
-        <img src="assets/img/secretaireHeader.png" class="col-md-6" alt="photo d'une secrétaire accueillante et souriante avec un casque micro">
       </div>
-</header>
-
-
-<section id="content1" class=" m-auto">
-<h2 class="col-12 fw-bold text-center display-2 mt-5" >WHY<br>CHOOSE US</h2>
-<p class="col-12 fw-bold text-center mt-3 w-75 m-auto">Problems trying to resolve 
-  the conflict between the 
-  two major realms of Classical 
-  physics: Newtonian mechanics </p>
-
-  <!-- create a card with a picture on bootstrap  -->
-  <div class="card-deck col-12 col-md-10 col-lg-8 mt-5 d-flex w-auto m-auto row">
-    <div class="card d-flex align-items-center justify-content-center m-auto col-md-4 p-3 bg-light col-lg-3 col-md-12">
-      <img src="assets/img/whyVector1.svg" class="card-img-top imgTaille" alt="...">
-      <div class="card-body">
-        <h5 class="card-title text-center">Web Developpement</h5>
+      <div class="card d-flex align-items-center m-auto col-md-4 p-3 bg-info text-white col-12 col-lg-3 col-md-12">
+        <img src="assets/img/whyVector2.svg" class="card-img-top imgTaille" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Digital Marketing</h5>
+        </div>
       </div>
-    </div>
-    <div class="card d-flex align-items-center m-auto col-md-4 p-3 bg-info text-white col-12 col-lg-3 col-md-12">
-      <img src="assets/img/whyVector2.svg" class="card-img-top imgTaille" alt="...">
-      <div class="card-body">
-        <h5 class="card-title text-center">Digital Marketing</h5>
+      <div class="card d-flex align-items-center m-auto col-md-4 p-3 bg-light col-12 col-lg-3 col-md-12">
+        <img src="assets/img/carbon_notebook.svg" class="card-img-top imgTaille" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Buisness Growing</h5>
+        </div>
       </div>
-    </div>
-    <div class="card d-flex align-items-center m-auto col-md-4 p-3 bg-light col-12 col-lg-3 col-md-12">
-      <img src="assets/img/carbon_notebook.svg" class="card-img-top imgTaille" alt="...">
-      <div class="card-body">
-        <h5 class="card-title text-center">Buisness Growing</h5>
-      </div>
-    </div>
-</section>
+  </section>
 
-
-    
-    
+  
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
