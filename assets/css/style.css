@@ -35,20 +35,12 @@ header {
     height: 48px;
 }
 
-#content1 {
-    min-height: 70vh;
-    width: 70%;
-}
 #content1 h2{
     font-size: 40px;
 }
 #content1 p{
     font-size: 14px;
     color: #737373;
-}
-
-#secretaire {
-    overflow: hidden;
 }
 .card {
     border: none;
