@@ -18,7 +18,7 @@
 
 <body>
 
-  <header class="min-vh100">
+  <header>
     <nav class="navbar navbar-light bg-transparent navbar-expand-md">
       <div class="container">
         <a class="navbar-brand" href="#">
@@ -60,9 +60,7 @@
       </div>
     </nav>
     <!-- ************************************************************ -->
-    <!-- à faire >> déplacer le caddie et la loupe dans le menu burger -->
-    <!-- ************************************************************* -->
-    <div class="container col-12 d-flex align-items-center weTake w-75" id="weTake">
+    <div class="container col-12 d-flex align-items-center weTake flex-wrap justify-content-center" id="weTake">
       <div class=" align-items-center justify-content-center col-md-6 p-3">
         <h1 class="col-12 col-md- display-5 fw-bold">We Take Care of the Future</h1>
         <h6 class="fs-5 col-12 col-md-7 w-auto">We know how large obects will act, but things on a small scale.</h6>
@@ -163,9 +161,9 @@
       physics: Newtonian mechanics </p>
 
     <div class="container col-12 d-flex align-items-center weTake w-auto justify-content-center pt-5" id="weAre">
-      <img src="assets/img/providingMedia.png" class="col-lg-6 col-12" alt="photo d'une personne qui fait des réservations sur un ordinateur">
+      <img src="assets/img/providingMedia.png" class="col-lg-6 col-12 col-md-6" alt="photo d'une personne qui fait des réservations sur un ordinateur">
      <div class="mx-auto px-auto col-lg-6 col-md-6 d-flex flex-wrap justify-content-center align-items-center">
-        <div class="col-lg-6 col-12">
+        <div class="col-lg-6 col-md-6 col-12">
           <h2 class="col-12">Most trusted in our field</h2>
           <p class="col-12">Most calendars are designed for teams. Slate
             is designed for freelancers who want a
@@ -204,11 +202,11 @@
     <img src="assets/img/reddit.svg" alt="icone de reddit" class="p-4 mx-3 h-25">
   </div>
 
-  <div id="formNewsletter" class="container-fluid d-flex align-items-center justify-content-center col-12 col-md-8 py-2 my-2 flex-wrap">
-    <h2 class="col-8 fw-bold text-center">Subscribe for latest newsletter</h2>
-    <form class="col-12 col-md-6 col-lg-4 m-auto p-auto">
-      <div class="form-group d-flex justify-content-center">
-        <input type="email" class="form-control w-50 rounded-start" id="exampleInputEmail1" aria-describedby="emailHelp"
+  <div id="formNewsletter" class="container-fluid d-flex align-items-center justify-content-center col-12 col-md-7 py-2 my-2 flex-wrap">
+    <h2 class="col-4 fw-bold">Subscribe for latest newsletter</h2>
+    <form class="col-12 col-md-6 col-lg-5 mx-auto">
+      <div class="form-group d-flex justify-content-end">
+        <input type="email" class="form-control rounded-start" id="exampleInputEmail1" aria-describedby="emailHelp"
           placeholder="Your email" >
           <button type="submit" class="btn btn-warning rounded-end">Subscrive</button>
         </div>
