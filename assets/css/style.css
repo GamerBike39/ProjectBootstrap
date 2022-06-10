@@ -119,7 +119,7 @@ header {
     .secondButton {
         width: 50%;
     }
-#content3 p{
+#content3 p, .content5 p{
    color: #737373
 }
 
