@@ -3,6 +3,9 @@ body {
     overflow-x: hidden;
     text-decoration: none;
 }
+.fs-14 {
+    font-size: 14px;
+}
 
 header {
     background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);
@@ -23,6 +26,12 @@ font-size : 4rem;
     width: 329px;
     height: 393px;
  }
+ .darkCard{
+    background: #252B42;
+    width: 328px;
+    height: 393px;
+    transform: scaleY(1.04);
+}
 
 #secretaire{
 transform: translate(43px,30px);
@@ -100,6 +109,9 @@ min-height: 74.5vh;
 .content5{
     background : #f3f3f3
 }
+.lastContain{
+    width: 1207px;
+}
 
 #content4 img {
 height: 50px;
@@ -121,10 +133,7 @@ height: 50px;
     z-index: 1;
 }
 
-.darkCard{
-    background: #252B42;
-    height: 393px;
-}
+
 .btnSubmit{
     border: 1px solid #FFA62B;
     border-radius: 5px;
@@ -158,12 +167,25 @@ height: 50px;
     text-align: center;
   }
 }
+
+@media screen and (max-width: 1100px) {
+  .darkCard{
+    transform: scaleY(1);
+  }
+  .deckGet{
+   flex-direction: column;
+   gap: 25px;
+  }
+}
 @media screen and (max-width: 683px) {
     #weTake{
         overflow: inherit;
     }
     #secretaire{
         transform: translate(0px,0px);
+    }
+    .lastContain{
+        width: auto;
     }
 }
 
