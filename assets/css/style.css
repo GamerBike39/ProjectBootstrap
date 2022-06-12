@@ -1,10 +1,34 @@
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
+    text-decoration: none;
 }
 
 header {
     background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);
+}
+#weTake{
+    min-height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+#weTake h2{ 
+font-size : 4rem;
+}
+ .cardWe{
+    width:509px;
+    transform: translateX(89px);
+ }
+ .cardGet{
+    width: 329px;
+    height: 393px;
+ }
+
+#secretaire{
+transform: translate(43px,30px);
+object-fit: contain;
+position: relative;
+min-height: 74.5vh;
 }
 
 .card-img{
@@ -13,6 +37,24 @@ header {
     object-fit: cover;
     margin-left: -8px;
 }
+.fondBleu{
+    background: #00A0C1;
+}
+.borderBleu{
+    border: 1px solid #00A0C1;
+    color: #00A0C1;
+}
+.firstButton,.secondButton{
+    font-size: 14px;
+    padding: 13px 0 13px 0;
+}
+.firstButton{
+    width: 100%;
+}
+.secondButton{
+    width: 70%;
+}
+
 
 #content2 .card{
     width: 14.875rem;
@@ -27,18 +69,14 @@ header {
     color: #737373;
     font-size: 0.875rem;
 }
-/* #weTake h6 {
-    font-weight: lighter;
-    color: #737373;
-} */
-
-#navItem {
-    order: 1;
-}
 
 .imgTaille {
     width: 48px;
     height: 48px;
+}
+.imgTailleGet{
+    width: 72px;
+    height: 72px;
 }
 
 .card {
@@ -59,6 +97,9 @@ header {
     background: #FAFAFA;
     position: relative;
 }
+.content5{
+    background : #f3f3f3
+}
 
 #content4 img {
 height: 50px;
@@ -70,43 +111,84 @@ height: 50px;
     color: white;
     font-size: 24px;
     z-index: 2;
-    min-width: 986px;
 }
 .formNewsLetterBack{
     position: absolute;
     top: 60%;
     width: 100vw;
-    height: 77px;
+    min-height: 77px;
     background:#252B42;
     z-index: 1;
 }
 
+.darkCard{
+    background: #252B42;
+    height: 393px;
+}
+.btnSubmit{
+    border: 1px solid #FFA62B;
+    border-radius: 5px;
+    color: #FFA62B;
+    font-weight: 600;
+}
+.btnSubmitMid{
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+.btnOr{
+    background: #FFA62B;
+}
 
+#footer{
+    background: #16697A;
+    color: #FAFAFA;
+}
 
-@media screen and (max-width: 767px) {
-    #navItem {
-        flex-direction: row;
-        order: 0;
+@media screen and (max-width: 1432px) {
+    #weTake h2{ 
+        font-size : 3.8rem;
+        }
+}
+@media screen and (max-width: 1200px) {
+  .cardWe{
+    transform: translateX(0px);
+    display: flex;
+    justify-content: center; align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 683px) {
+    #weTake{
+        overflow: inherit;
     }
-
-    #burgerBtn {
-        order: 2;
+    #secretaire{
+        transform: translate(0px,0px);
     }
+}
 
-    #weTake {
-        margin-top: 10%;
-        font-size: 2.5rem;
-        text-align: center;
+
+@media screen and (max-width: 414px) {
+    .secondButton{
+        max-width:75% ;
     }
+}
 
-    .firstButton,
-    .secondButton {
-        width: 50%;
+@media screen and (max-width: 286px) {
+    #weTake h2{ 
+        font-size : 2rem;
+        word-spacing: 0%;
+        line-height: 45px;
+        width: 100%;
+        }
+    #weTake h1{
+        font-size : 0.5rem;
+        }
+      
+    .secondButton{
+        max-width:85% ;
     }
-
     #formNewsletter {
         min-width: 100%;
     }
-
-
 }

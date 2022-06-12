@@ -18,64 +18,57 @@
 
 <body>
 
-  <header>
-    <nav class="navbar navbar-light bg-transparent navbar-expand-md">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <h3 class="fw-bold">Capgemen</h3>
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-md bg-transparent">
+      <div class="container gap-3 col-12 col-xxl-10 mx-auto px-5 pb-0">
+        <a href="#" class="navbar-brand">
+          <h1 class="fw-bold text-dark">Capgemen</h1>
         </a>
-        <button class="navbar-toggler collapsed" id="burgerBtn" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarNav3" aria-controls="navbarNav3" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar d-flex order-2">
-            <img src="assets/img/btnBurger.svg" alt="bouton pour ouvrir le menu">
-          </span>
+        <a href="#" class="order-md-3"><img src="assets/img/navBarLoupe.svg" alt="Search"></a>
+        <a href="#" class="order-md-2"><img src="assets/img/NavBarCaddie.svg" alt="Panier"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria- controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="assets/img/btnBurger.svg" alt="Bouton du menu burger">
         </button>
-        <ul class="navbar-nav align-items-center mx-lg-5" id="navItem">
-          <li class="nav-item mx-lg-3">
-            <a href="#">
-              <img src="assets/img/navBarLoupe.svg" alt="bouton represantant une loupe pour effectuer une recherche">
-            </a>
-          <li class="nav-item">
-            <a href="#">
-              <img src="assets/img/NavBarCaddie.svg" alt="bouton represantant un caddie qui fait office de panier">
-            </a>
-          </li>
-        </ul>
-        <div class="navbar-collapse collapse" id="navbarNav3">
-          <ul class="navbar-nav ms-auto align-items-center">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+        <div class="collapse navbar-collapse order-md-1 justify-content-end " id="navbarSupportedContent">
+          <ul class="navbar-nav my-5 my-md-0">
+            <li class="nav-item text-md-star text-center">
+              <a class="nav-link active pGrey" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Product</a>
+            <li class="nav-item text-md-star text-center">
+              <a class="nav-link pGrey" href="#">Product</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+            <li class="nav-item text-md-star text-center">
+              <a class="nav-link pGrey" href="#">Pricing</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+            <li class="nav-item text-md-star text-center">
+              <a class="nav-link pGrey" href="#">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- ************************************************************ -->
-    <div class="container col-12 d-flex align-items-center weTake flex-wrap justify-content-center" id="weTake">
-      <div class=" align-items-center justify-content-center col-md-6 p-3">
-        <h2 class="col-12 col-md- display-6 fw-bold">We Take Care of the Future</h2>
-        <p class="fs-5 col-12 col-md-7 w-auto pGrey">We know how large obects will act, but things on a small scale.</p>
-        <button type="button"
-          class="btn btn-primary rounded-pill col-12 col-md-5 col-lg-3 firstButton w-auto m-auto">Get Quote Now</button>
-        <button type="button"
-          class="btn btn-outline-primary rounded-pill col-12 col-md-3 secondButton w-auto m-auto">Learn More</button>
+    <div class="container-fluid col-12 align-items-center justify-content-center d-flex flex-wrap flex-xl-nowrap"
+      id="weTake">
+      <div class="cardWe">
+        <h2 class=" col-12 fw-bold mx-auto">We Take Care of the Future</h2>
+        <p class=" col-9 pGrey py-4 fs-5">We know how large obects will act, but things on a small scale.</p>
+        <div
+          class="col-8 d-flex flex-wrap flex-column flex-xl-row flex-xl-nowrap justify-content-center align-items-center gap-3 mb-4">
+          <button type="button" class="btn fondBleu text-white fw-bold rounded-pill firstButton">Get Quote Now</button>
+          <button type="button" class="btn borderBleu rounded-pill mw-50 fw-bold secondButton">Learn More</button>
+        </div>
       </div>
-      <img src="assets/img/secretaireHeader.png" class="col-md-6" id="secretaire"
+      <img src="assets/img/secretaireHeader.png" class="" id="secretaire"
         alt="photo d'une secrétaire accueillante et souriante avec un casque micro">
+      <!-- <div id="secretaire" class="col-6"></div>   -->
     </div>
   </header>
   <!-- *************************************************************************************** -->
 
-  <section id="content1" class="container-fluid mx-auto my-5 py-5 d-flex justify-content-center align-items-center flex-wrap">
+  <section id="content1"
+    class="container-fluid mx-auto my-5 py-5 d-flex justify-content-center align-items-center flex-wrap">
     <h2 class="col-12 fw-bold text-center display-6">WHY CHOOSE US</h2>
     <p class="col-12 fw-bold text-center w-75 m-auto pGrey">Problems trying to resolve
       the conflict between the
@@ -91,7 +84,7 @@
           <h5 class="card-title text-center d-none d-md-block">Business Growing</h5>
         </div>
       </div>
-      <div class="card d-flex align-items-center col-md-4 p-3 bg-info text-white col-12 col-lg-3 col-md-12 ombre">
+      <div class="card d-flex align-items-center col-md-4 p-3 text-white col-12 col-lg-3 col-md-12 fondBleu ombre">
         <img src="assets/img/whyVector2.svg" class="card-img-top imgTaille" alt="...">
         <div class="card-body">
           <h5 class="card-title text-center d-md-none">National top 50 firms</h5>
@@ -123,8 +116,8 @@
             light was made up of
             particles, but then it
             was discovered </p>
-          </div>
-          <img src="assets/img/practicePhoto1.png" class="card-img" alt="...">
+        </div>
+        <img src="assets/img/practicePhoto1.png" class="card-img" alt="...">
       </div>
       <div class="card">
         <div class="card-body">
@@ -132,8 +125,8 @@
           <p class="card-text pGrey pt-2 col-10 mx-auto">“Quantum mechanics”
             is the description of the
             behaviour of matter</p>
-          </div>
-          <img src="assets/img/practicePhoto2.png" class="card-img" alt="...">
+        </div>
+        <img src="assets/img/practicePhoto2.png" class="card-img" alt="...">
       </div>
       <div class="card">
         <div class="card-body">
@@ -141,8 +134,8 @@
           <p class="card-text pGrey pt-2 col-10 mx-auto">They describe a
             universe consisting of
             bodies moving</p>
-          </div>
-          <img src="assets/img/practicePhoto3.png" class="card-img mt-4" alt="...">
+        </div>
+        <img src="assets/img/practicePhoto3.png" class="card-img mt-4" alt="...">
       </div>
       <div class="card">
         <div class="card-body">
@@ -150,24 +143,28 @@
           <p class="card-text pGrey pt-2 col-10 mx-auto">They finally obtained
             a consistent description
             of the behaviour </p>
-          </div>
-          <img src="assets/img/practicePhoto4.png" class="card-img me-5" alt="...">
+        </div>
+        <img src="assets/img/practicePhoto4.png" class="card-img me-5" alt="...">
       </div>
     </div>
   </section>
   <!-- ******************************************************************************************************************** -->
   <section id="content3" class="mx-auto my-5 py-3 container-fluid">
-    <h2 class="col-7 fw-bold text-center display-6 mt-5  mx-auto d-md-none">We take care customers our all expert here.</h2>
-    <h2 class="col-4 col-md-6 col-xl-4 fw-bold text-center display-6 mt-5  mx-auto d-none d-md-block">We are providing best 
+    <h2 class="col-7 fw-bold text-center display-6 mt-5  mx-auto d-md-none">We take care customers our all expert here.
+    </h2>
+    <h2 class="col-4 col-md-6 col-xl-4 fw-bold text-center display-6 mt-5  mx-auto d-none d-md-block">We are providing
+      best
       business service.</h2>
     <p class="col-8 col-lg-4 fw-bold text-center mt-3 mx-auto pGrey">Problems trying to resolve
       the conflict between the
       two major realms of Classical
       physics: Newtonian mechanics </p>
 
-    <div class="container col-12 d-flex align-items-center weTake w-auto justify-content-center flex-wrap pt-5" id="weAre">
-      <img src="assets/img/providingMedia.png" class="col-12 col-md-10 col-xl-6 py-auto" alt="photo d'une personne qui fait des réservations sur un ordinateur">
-     <div class="mx-auto col-12 col-md-6 d-flex flex-wrap justify-content-center align-items-center py-5">
+    <div class="container col-12 d-flex align-items-center weTake w-auto justify-content-center flex-wrap pt-5"
+      id="weAre">
+      <img src="assets/img/providingMedia.png" class="col-12 col-md-10 col-xl-6 py-auto"
+        alt="photo d'une personne qui fait des réservations sur un ordinateur">
+      <div class="mx-auto col-12 col-md-6 d-flex flex-wrap justify-content-center align-items-center py-5">
         <div class="col-12 col-lg-6">
           <h2 class="col-12 display-6 fw-bold">Most trusted in our field</h2>
           <p class="col-12 pGrey pb-5">Most calendars are designed for teams. Slate
@@ -178,86 +175,150 @@
           <div class="col-12 d-flex m-auto p-auto gap-3">
             <img src="assets/img/bonhommeReunion.svg" class="mb-5 pb-5" alt="icone de personnes en réunion">
             <div>
-              <h6 class="fw-bold">the quick fox jumps over the lazy dog</h6>
+              <h6 class="fw-bold col-11">the quick fox jumps over the lazy dog</h6>
               <p class="pGrey">Things on a very small scale...</p>
             </div>
           </div>
-       
+
           <div class="col-12 d-flex m-auto gap-3">
             <img src="assets/img/compteurVitesse.svg" class="mb-5 pb-5" alt="icone de compteur de vitesse qui va vite">
             <div>
-              <h6 class="fw-bold">the quick fox jumps over the lazy dog</h6>
+              <h6 class="fw-bold col-11">the quick fox jumps over the lazy dog</h6>
               <p class="pGrey">Things on a very small scale...</p>
             </div>
           </div>
         </div>
-     </div>
+      </div>
 
     </div>
   </section>
-<!-- ************************************************ -->
+  <!-- ************************************************ -->
 
-<section id="content4" class="container-fluid d-flex align-center justify-content-center w-100 row g-0 g-lg-5 mx-auto my-5 py-5">
+  <section id="content4"
+    class="container-fluid d-flex align-center justify-content-center w-100 row g-0 g-lg-5 mx-auto my-5 py-5">
 
-  <div id="logo" class="d-flex p-auto justify-content-center align-items-center gy-2 row g-0 h-100">
-    <img src="assets/img/hooli.svg" alt="icone de hooli" class="p-4 mx-3 h-25">
-    <img src="assets/img/lyft.svg" alt="icone de lyft" class="p-4 mx-3 h-25">
-    <img src="assets/img/chapeauPlume.svg" alt="icone de la série Silicon Valley Pied Piper" class="p-4 mx-3 h-25">
-    <img src="assets/img/AWS.svg" alt="icone de Amazon Web Service" class="p-4 mx-3 h-25">
-    <img src="assets/img/reddit.svg" alt="icone de reddit" class="p-4 mx-3 h-25">
-  </div>
+    <div id="logo" class="d-flex p-auto justify-content-center align-items-center gy-2 row g-0 h-100">
+      <img src="assets/img/hooli.svg" alt="icone de hooli" class="p-4 mx-3 h-25">
+      <img src="assets/img/lyft.svg" alt="icone de lyft" class="p-4 mx-3 h-25">
+      <img src="assets/img/chapeauPlume.svg" alt="icone de la série Silicon Valley Pied Piper" class="p-4 mx-3 h-25">
+      <img src="assets/img/AWS.svg" alt="icone de Amazon Web Service" class="p-4 mx-3 h-25">
+      <img src="assets/img/reddit.svg" alt="icone de reddit" class="p-4 mx-3 h-25">
+    </div>
 
-  <div id="formNewsletter" class="container-fluid d-flex align-items-center justify-content-center col-12 col-md-7 py-2 my-2 flex-wrap">
-    <h2 class="col-4 fw-bold">Subscribe for latest newsletter</h2>
-    <form class="col-12 col-md-6 col-lg-5 mx-auto">
-      <div class="form-group d-flex justify-content-end">
-        <input type="email" class="form-control rounded-start" id="exampleInputEmail1" aria-describedby="emailHelp"
-          placeholder="Your email" >
-          <button type="submit" class="btn btn-warning rounded-end">Subscrive</button>
+    <div id="formNewsletter"
+      class="container-fluid d-flex align-items-center justify-content-center col-12 col-md-7 py-2 my-2 flex-wrap">
+      <h2 class="col-6 fw-bold">Subscribe for latest newsletter</h2>
+      <form class="col-8 col-md-6 col-lg-5 mx-auto">
+        <div class="form-group d-flex justify-content-end">
+          <input type="email" class="form-control rounded-start" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Your email">
+          <button type="submit" class="btn btn-warning rounded-end">Subscribe</button>
         </div>
-    </form>
-  </div>
-  <div class="formNewsLetterBack d-none d-xl-block"></div>
-</section>
+      </form>
+    </div>
+    <div class="formNewsLetterBack d-none d-xl-block"></div>
+  </section>
 
   <!-- ************************************** -->
 
-<section class="content5 container d-flex justify-content-center align-content-center flex-wrap my-5 mx-auto py-3 px-auto">
-  <h2 class="col-12 fw-bold text-center display-6 mt-5">Get In Touch</h2>
-  <p class="col-12 fw-bold text-center mt-3 w-75 m-auto pGrey">Problems trying to resolve
-    the conflict between the
-    two major realms of Classical
-    physics: Newtonian mechanics </p>
+  <section
+    class="content5 container-fluid d-flex justify-content-center align-content-center flex-wrap my-5 mx-auto py-3 px-auto">
+    <h2 class="col-12 fw-bold text-center display-6 mt-5">Get In Touch</h2>
+    <p class="col-6 fw-bold text-center mt-3 m-auto pGrey">Problems trying to resolve
+      the conflict between the
+      two major realms of Classical
+      physics: Newtonian mechanics </p>
 
     <div class="card-deck col-12 col-md-10 col-lg-12 mt-5 d-flex flex-wrap justify-content-center p-3 m-3">
-      <div class="card d-flex align-items-center col-md-4 p-3 bg-light col-lg-3 col-md-4 col-12"">
-        <img src="assets/img/getInTouchTelephone.svg" class="card-img-top imgTaille" alt="...">
+      <div class="card d-flex align-items-center col-md-4 p-3 bg-light col-lg-3 col-md-4 col-12 cardGet " >
+        <img src=" assets/img/getInTouchTelephone.svg" class="card-img-top imgTailleGet mt-5" alt="...">
         <div class="card-body col-12 text-center">
-          <p>georgia.young@example.com</p>
-          <p>georgia.young@ple.com</p>
-          <h5 class="card-title">Get Support</h5>
-          <a href="#" class="btn btn-dark w-100 ">button</a>
+          <a class="text-decoration-none text-dark" href="mailto:georgia.young@example.com">georgia.young@example.com</a>
+          <a class="text-decoration-none text-dark" href="mailto:georgia.young@example.com">georgia.young@ple.com</a>
+          <h5 class="card-title py-4">Get Support</h5>
+          <a href="#" class="btn btnSubmit col-8 py-3 ">Submit Request</a>
         </div>
       </div>
-      <div class="card d-flex align-items-center col-md-4 p-3 bg-light col-lg-3 col-md-4 col-12 bg-dark text-white">
-        <img src="assets/img/getInTouchPosition.svg" class="card-img-top imgTaille" alt="...">
+      <div class="card d-flex align-items-center col-md-4 p-3 col-lg-3 col-md-4 col-12 darkCard text-white cardGet" >
+        <img src="assets/img/getInTouchPosition.svg" class="card-img-top imgTailleGet mt-5" alt="...">
         <div class="card-body col-12 text-center">
-          <p>georgia.young@example.com</p>
-          <p>georgia.young@ple.com</p>
-          <h5 class="card-title text-center">Get Support</h5>
-          <a href="#" class="btn btn-dark w-100 ">button</a>
+          <a class="text-decoration-none text-white" href="mailto:georgia.young@example.com">georgia.young@example.com</a>
+          <a class="text-decoration-none text-white" href="mailto:georgia.young@example.com">georgia.young@ple.com</a>
+          <h5 class="card-title py-4">Get Support</h5>
+          <a href="#" class="btn text-white btnSubmitMid col-8 py-3 ">Submit Request</a>
         </div>
       </div>
-      <div class="card d-flex align-items-center col-md-4 p-3 bg-light col-lg-3 col-md-4 col-12">
-        <img src="assets/img/getInTouchLetter.svg" class="card-img-top imgTaille" alt="...">
+      <div class="card d-flex align-items-center col-md-4 p-3 bg-light col-lg-3 col-md-4 col-12 cardGet">
+        <img src="assets/img/getInTouchLetter.svg" class="card-img-top imgTailleGet mt-5" alt="...">
         <div class="card-body col-12 text-center">
-          <a class="mx-auto text-center">georgia.young@example.com</a>
-          <p>georgia.young@ple.com</p>
-          <h5 class="card-title text-center">Get Support</h5>
-          <a href="#" class="btn btn-dark w-100 ">button</a>
+          <a class="text-decoration-none text-dark" href="mailto:georgia.young@example.com">georgia.young@example.com</a>
+          <a class="text-decoration-none text-dark" href="mailto:georgia.young@example.com">georgia.young@ple.com</a>
+          <h5 class="card-title py-4">Get Support</h5>
+          <a href="#" class="btn btnSubmit col-8 py-3 ">Submit Request</a>
         </div>
       </div>
-</section>
+  </section>
+
+  <!-- ************************************** -->
+  <section class="lastContain container-fluid d-flex align-items-center justify-content-center flex-wrap flex-column my-5 py-5 ">
+    <div>
+      <h2 class="fw-bold fs-5 mt-5">Consulting Agency For Your Business</h2>
+      <p class="mx-auto pGrey">the quick fox jumps over the lazy dog </p>
+    </div>
+    <div>
+      <a class="btn p-3 col-12 btnOr text-white fw-bolder" href="#" role="button ">Contact Us</a>
+    </div>
+  </section>
+
+  <footer id="footer" class="container-fluid">
+    <div id="footer" class="container mx-auto flew-wrap d-flex row">
+      <div class=" col-8 col-md-2 mx-auto">
+        <div class="card-body">
+          <h5 class="card-title py-2">Company Info</h5>
+          <p class="card-text">About Us</p>
+          <p class="card-text">Carrier</p>
+          <p class="card-text">We are hiring </p>
+          <p class="card-text">Blog</p>
+        </div>
+      </div>
+      <div class=" col-8 col-md-2 mx-auto">
+        <div class="card-body">
+          <h5 class="card-title py-2">Legal</h5>
+          <p class="card-text">About Us</p>
+          <p class="card-text">Carrier</p>
+          <p class="card-text">We are hiring </p>
+          <p class="card-text">Blog</p>
+        </div>
+      </div>
+      <div class=" col-8 col-md-2 mx-auto">
+        <div class="card-body">
+          <h5 class="card-title py-2">Features</h5>
+          <p class="card-text">Business Marketing</p>
+          <p class="card-text">User Analytic</p>
+          <p class="card-text">Live Chat</p>
+          <p class="card-text">Unlimited Support</p>
+        </div>
+      </div>
+      <div class=" col-8 col-md-2 mx-auto">
+        <div class="card-body">
+          <h5 class="card-title py-2">Ressources</h5>
+          <p class="card-text">IOS & Android</p>
+          <p class="card-text">Watch a Demo</p>
+          <p class="card-text">Customers </p>
+          <p class="card-text">API</p>
+        </div>
+      </div>
+      <div class=" col-8 col-md-3 mx-auto">
+        <div class="card-body">
+          <h5 class="card-title py-2">Get In Touch</h5>
+          <p class="card-text">(480) 555-0103</p>
+          <p class="card-text">4517 Washington Ave.</p>
+          <a class="text-decoration-none text-white" href="mailto:debra.holt@example.com">debra.holt@example.com</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
 
 
 
@@ -272,9 +333,11 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
