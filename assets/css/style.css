@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    text-decoration: none;
+    width: 100vw;
 }
 .fs-14 {
     font-size: 14px;
@@ -38,6 +38,7 @@ transform: translate(43px,30px);
 object-fit: contain;
 position: relative;
 min-height: 74.5vh;
+
 }
 
 .card-img{
@@ -110,18 +111,17 @@ min-height: 74.5vh;
 .content5{
     background : #f3f3f3
 }
-.lastContain{
-    width: 1207px;
-}
-
 #content4 img {
 height: 50px;
  width: auto;
 }
+.lastContain{
+    width: 1207px;
+}
+
 
 #formNewsletter{
     background: #16697A;
-    width: 100vw;
     color: white;
     font-size: 24px;
     min-width: 990px;
@@ -135,7 +135,7 @@ height: 50px;
 #content4::before{
     content:'';
     position: absolute;
-    width: 100%;
+    width: 100vw;
     top: 60%;
     height: 100px;
     background:#252B42;
@@ -169,6 +169,56 @@ height: 50px;
     height: 24px;
 }
 
+.form-control {
+    display: block;
+    width: 100%;
+    min-height: calc(1.5em + .75rem + 2px);
+    padding: .575rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 52px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #f9a826;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+.border-rad{
+
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+
+    color: #fff;
+    background-color: #f9a826;
+    border-color: #f9a826;
+}
+
+
+
+
+.border-rad:hover{
+   
+     background-color: #f9a826;
+    border-color: #f9a826;
+
+}
+
+
+
 @media screen and (max-width: 1432px) {
     #weTake h2{ 
         font-size : 3.8rem;
@@ -177,20 +227,18 @@ height: 50px;
     @media screen and (max-width: 1112px) {
       .darkCard{
         transform: scaleY(1);
-        width: auto;
+        max-width: 329px;
+        max-height: 393px;
       }
       .cardGet{
-        width: auto;
-        height: auto;
+        max-width: 329px;
+        max-height: 393px;
       }
       .deckGet{
        flex-direction: column;
        gap: 25px;
       }
       #formNewsletter {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         min-width: auto;
     }
     #logo{
