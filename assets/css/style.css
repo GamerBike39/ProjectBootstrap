@@ -119,6 +119,10 @@ height: 50px;
     width: 1207px;
 }
 
+.imgProviding{
+    object-fit: cover;
+    height: 55vh;
+}
 
 #formNewsletter{
     background: #16697A;
@@ -160,9 +164,6 @@ height: 50px;
     background: #16697A;
     color: #FAFAFA;
 }
-.footer{
-    min-width: 1120px;
-}
 
 .icoF{
     width: 24px;
@@ -185,17 +186,7 @@ height: 50px;
     -moz-appearance: none;
     appearance: none;
     border-radius: 52px;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
-.form-control:focus {
-    color: #495057;
-    background-color: #fff;
-    border-color: #f9a826;
-    outline: 0;
-    box-shadow: none;
-}
-
 
 .border-rad{
 
@@ -233,9 +224,10 @@ height: 50px;
       .cardGet{
         max-width: 329px;
         max-height: 393px;
+        min-width: none;
+        max-height: none;
       }
       .deckGet{
-       flex-direction: column;
        gap: 25px;
       }
       #formNewsletter {
@@ -253,10 +245,10 @@ height: 50px;
     flex-direction: column;
     text-align: center;
   }
-  .footer{
+  /* .footer{
     width: auto;
     flex-direction: column;
-}
+} */
 }
 
 @media screen and (max-width: 683px) {
