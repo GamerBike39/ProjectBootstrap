@@ -119,24 +119,28 @@ height: 50px;
  width: auto;
 }
 
-#formNewsletter {
+#formNewsletter{
     background: #16697A;
+    width: 100vw;
     color: white;
     font-size: 24px;
-    z-index: 2;
-    position: relative;
     min-width: 990px;
-
+    height: 100px;
+    z-index: 2;
 }
-.formNewsLetterBack{
-    content: "";
+#content4 {
+   position: relative;
+    
+}
+#content4::before{
+    content:'';
     position: absolute;
-    width: 100vw;
+    width: 100%;
     top: 60%;
-    min-height: 77px;
+    height: 100px;
     background:#252B42;
+    z-index: 1;
 }
-
 
 .btnSubmit{
     border: 1px solid #FFA62B;
@@ -155,6 +159,8 @@ height: 50px;
 #footer{
     background: #16697A;
     color: #FAFAFA;
+}
+.footer{
     min-width: 1120px;
 }
 
@@ -171,6 +177,11 @@ height: 50px;
     @media screen and (max-width: 1112px) {
       .darkCard{
         transform: scaleY(1);
+        width: auto;
+      }
+      .cardGet{
+        width: auto;
+        height: auto;
       }
       .deckGet{
        flex-direction: column;
@@ -194,6 +205,10 @@ height: 50px;
     flex-direction: column;
     text-align: center;
   }
+  .footer{
+    width: auto;
+    flex-direction: column;
+}
 }
 
 @media screen and (max-width: 683px) {
@@ -213,6 +228,9 @@ height: 50px;
     #logo{
         min-width: auto;
     }
+    #content4::before{
+        display: none;
+    }
 }
 
 
@@ -223,6 +241,10 @@ height: 50px;
     #weTake h2{ 
         font-size : 3rem;
         }
+    .navFond{
+        background: white;
+        width: 100vw;
+    }
 }
 
 @media screen and (max-width: 286px) {
