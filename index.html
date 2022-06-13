@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
@@ -13,43 +13,43 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
-  <title>Document</title>
+  <title>Capgenem</title>
+  <meta name="description" content="Intégration d'une maquette à l'aide de Bootstrap, projet de formation ACS">
 </head>
 
 <body>
 
-  <header class="container-fluid">
-    <nav class="navbar navbar-expand-md container-fluid">
-      <div class="container-fluid navFond gap-2">
-        <a href="#" class="navbar-brand">
-          <h1 class="fw-bold fs-4 text-dark col-5">Capgemen</h1>
-        </a>
-        <a href="#" class="order-md-3"><img src="assets/img/navBarLoupe.svg" alt="Search"></a>
-        <a href="#" class="order-md-2"><img src="assets/img/NavBarCaddie.svg" alt="Panier"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria- controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="assets/img/btnBurger.svg" alt="Bouton du menu burger">
-        </button>
-        <div class="collapse navbar-collapse order-md-1 justify-content-end" id="navbarSupportedContent">
-          <ul class="navbar-nav my-5 my-md-0">
-            <li class="nav-item text-md-star text-center">
-              <a class="nav-link active pGrey" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item text-md-star text-center">
-              <a class="nav-link pGrey" href="#">Product</a>
-            </li>
-            <li class="nav-item text-md-star text-center">
-              <a class="nav-link pGrey" href="#">Pricing</a>
-            </li>
-            <li class="nav-item text-md-star text-center">
-              <a class="nav-link pGrey" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-md container-fluid pt-0 px-0 mx-0">
+    <div class="container navFond gap-2 col-8 col-md-8 ps-4">
+      <a href="#" class="navbar-brand">
+        <h1 class="fw-bold fs-4 text-dark col-5">Capgemen</h1>
+      </a>
+      <a href="#" class="order-md-3"><img src="assets/img/navBarLoupe.svg" alt="une loupe pour rechercher"></a>
+      <a href="#" class="order-md-2"><img src="assets/img/NavBarCaddie.svg" alt="panier"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria- controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="assets/img/btnBurger.svg" alt="Bouton du menu burger">
+      </button>
+      <div class="collapse navbar-collapse order-md-1 justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav my-5 my-md-0">
+          <li class="nav-item text-md-star text-center">
+            <a class="nav-link active pGrey" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item text-md-star text-center">
+            <a class="nav-link pGrey" href="#">Product</a>
+          </li>
+          <li class="nav-item text-md-star text-center">
+            <a class="nav-link pGrey" href="#">Pricing</a>
+          </li>
+          <li class="nav-item text-md-star text-center">
+            <a class="nav-link pGrey" href="#">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!-- ************************************************************ -->
-    <div class="container-fluid col-12 align-items-center justify-content-center d-flex flex-wrap flex-xl-nowrap"
+    </div>
+  </nav>
+  <header>
+    <div class="container-fluid col-12 align-items-center justify-content-center d-flex flex-wrap flex-xl-nowrap mx-0 px-0"
       id="weTake">
       <div class="cardWe">
         <h2 class=" col-12 fw-bold mx-auto">We Take Care of the Future</h2>
@@ -60,7 +60,7 @@
           <button type="button" class="btn borderBleu rounded-pill mw-50 fw-bold secondButton">Learn More</button>
         </div>
       </div>
-      <img src="assets/img/secretaireHeader.png" class="" id="secretaire"
+        <img src="assets/img/secretaireHeader.png" class="mx-0 px-0" id="secretaire"
         alt="photo d'une secrétaire accueillante et souriante avec un casque micro">
       <!-- <div id="secretaire" class="col-6"></div>   -->
     </div>
@@ -194,20 +194,20 @@
   </section>
   <!-- ************************************************ -->
 
-  <section id="content4"
-    class="container-fluid d-flex align-items-center justify-content-center row g-lg-5 py-5">
+  <section id="contentLogo" 
+    class="container-fluid d-flex align-items-center justify-content-center row py-5">
 
-    <div id="logo" class="d-flex p-auto justify-content-center align-items-center row h-100">
-      <img src="assets/img/hooli.svg" alt="icone de hooli" class="h-25">
-      <img src="assets/img/lyft.svg" alt="icone de lyft" class="h-25">
-      <img src="assets/img/chapeauPlume.svg" alt="icone de la série Silicon Valley Pied Piper" class="h-25 mb-2">
-      <img src="assets/img/AWS.svg" alt="icone de Amazon Web Service" class="h-25">
-      <img src="assets/img/reddit.svg" alt="icone de reddit" class="h-25 mb-2">
+    <div id="logo" class="container p-auto justify-content-center align-items-center row h-auto gap-5">
+      <img src="assets/img/hooli.svg" alt="icone de hooli" class="col-12 col-md-3">
+      <img src="assets/img/lyft.svg" alt="icone de lyft" class=" col-12 col-md-3">
+      <img src="assets/img/chapeauPlume.svg" alt="icone de la série Silicon Valley Pied Piper" class=" col-12 col-md-3 mb-2">
+      <img src="assets/img/AWS.svg" alt="icone de Amazon Web Service" class=" col-12 col-md-3">
+      <img src="assets/img/reddit.svg" alt="icone de reddit" class="mb-2 col-12  col-md-3">
     </div>
   </section>
 
-  <section>
-    <div id="formNewsletter" class="container formNewsletter d-flex align-items-center justify-content-center row px-0 mx-0 pt-2 mt-2 flex-wrap h-auto">
+  <section id="content4"class="container-fluid d-flex  align-items-center justify-content-center px-0 mx-0">
+    <div id="formNewsletter" class="container-fluid formNewsletter col-md-8 d-flex align-items-center justify-content-center row px-0 mx-0 pt-2 mt-2 flex-wrap h-auto">
       <h2 class="col-6 fw-bold">Subscribe for latest newsletter</h2>
       <form class="col-12 col-lg-5">
         <div class="input-group mb-3 mt-4">
@@ -277,9 +277,9 @@
     </div>
   </section>
 
-  <footer id="footer" class="container-fluid col-12 py-5">
+  <footer id="footer" class="container-fluid col-12 py-5 justify-content-center align-items-center">
     <div class="container footer row fs-14 justify-content-center align-items-center ">
-      <div class=" col-12">
+      <div class=" col-10">
         <div class="">
           <h6 class="py-2 fw-bold">Company Info</h6>
           <p class="">About Us</p>
@@ -288,7 +288,7 @@
           <p class="">Blog</p>
         </div>
       </div>
-      <div class=" col-12 pe-3">
+      <div class=" col-10 ">
         <div class="">
           <h6 class="py-2 fw-bold">Legal</h6>
           <p class="">About Us</p>
@@ -297,7 +297,7 @@
           <p class="">Blog</p>
         </div>
       </div>
-      <div class=" col-12">
+      <div class=" col-10 ">
         <div class="">
           <h6 class="py-2 fw-bold">Features</h6>
           <p class="">Business Marketing</p>
@@ -306,7 +306,7 @@
           <p class="">Unlimited Support</p>
         </div>
       </div>
-      <div class=" col-12">
+      <div class=" col-10 ">
         <div class="">
           <h6 class="card-title py-2 fw-bold">Ressources</h6>
           <p class="">IOS & Android</p>
@@ -315,7 +315,7 @@
           <p class="">API</p>
         </div>
       </div>
-      <div class=" col-12">
+      <div class=" col-10">
         <div class="d-flex flex-wrap flex-column">
           <h6 class="card-title py-2 fw-bold">Get In Touch</h6>
           <div class="d-flex gap-3">

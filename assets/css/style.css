@@ -7,6 +7,10 @@ body {
     font-size: 14px;
 }
 
+nav{
+    background: linear-gradient(25deg, #FBE38F 1.65%, #F1D256 100.77%);
+}
+
 header {
     background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);
 }
@@ -38,7 +42,9 @@ transform: translate(43px,30px);
 object-fit: contain;
 position: relative;
 min-height: 74.5vh;
-
+}
+.secretaire{
+    overflow-x: hidden;
 }
 
 .card-img{
@@ -111,10 +117,10 @@ min-height: 74.5vh;
 .content5{
     background : #f3f3f3
 }
-#content4 img {
-height: 50px;
+#contentLogo img {
+min-height: 50px;
  width: auto;
-}
+ }
 .lastContain{
     width: 1207px;
 }
@@ -200,16 +206,6 @@ height: 50px;
 
 
 
-
-.border-rad:hover{
-   
-     background-color: #f9a826;
-    border-color: #f9a826;
-
-}
-
-
-
 @media screen and (max-width: 1432px) {
     #weTake h2{ 
         font-size : 3.8rem;
@@ -245,10 +241,6 @@ height: 50px;
     flex-direction: column;
     text-align: center;
   }
-  /* .footer{
-    width: auto;
-    flex-direction: column;
-} */
 }
 
 @media screen and (max-width: 683px) {
@@ -279,29 +271,13 @@ height: 50px;
         max-width:75% ;
     }
     #weTake h2{ 
-        font-size : 3rem;
+        font-size : 2rem;
+        word-spacing: 0%;
+        line-height: 45px;
+        width: 100%; font-size : 3rem;
         }
     .navFond{
         background: white;
         width: 100vw;
-    }
-}
-
-@media screen and (max-width: 286px) {
-    #weTake h2{ 
-        font-size : 2rem;
-        word-spacing: 0%;
-        line-height: 45px;
-        width: 100%;
-        }
-    #weTake h1{
-        font-size : 0.5rem;
-        }
-      
-    .secondButton{
-        max-width:85% ;
-    }
-    #formNewsletter {
-        min-width: 100%;
     }
 }
