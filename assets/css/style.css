@@ -6,6 +6,9 @@ body {
 .fs-14 {
     font-size: 14px;
 }
+h2{
+    color: #252B42;
+}
 
 nav{
     background: linear-gradient(25deg, #FBE38F 1.65%, #F1D256 100.77%);
@@ -212,6 +215,8 @@ min-height: 50px;
         transform: scaleY(1);
         max-width: 329px;
         max-height: 393px;
+        min-width: none;
+        max-height: none;
       }
       .cardGet{
         max-width: 329px;
