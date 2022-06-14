@@ -39,9 +39,10 @@ font-size : 4rem;
 
 #secretaire{
 transform: translate(43px,30px);
-object-fit: contain;
+object-fit: cover;
 position: relative;
 min-height: 74.5vh;
+
 }
 .secretaire{
     overflow-x: hidden;
@@ -244,6 +245,7 @@ min-height: 50px;
     }
     #secretaire{
         transform: translate(0px,0px);
+        width: 100vw;
     }
     .imgProviding{
         width : 18.813rem;
