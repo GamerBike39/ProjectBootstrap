@@ -1,7 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    width: 100vw;
 }
 .fs-14 {
     font-size: 14px;
@@ -36,8 +35,7 @@ font-size : 4rem;
  .darkCard{
     background: #252B42;
     width: 328px;
-    height: 393px;
-    transform: scaleY(1.04);
+    min-height: 450px;
 }
 
 #secretaire{
@@ -215,13 +213,13 @@ min-height: 50px;
         }
     }
     @media screen and (max-width: 1112px) {
-      .darkCard{
-        transform: scaleY(1);
-        max-width: 329px;
-        max-height: 393px;
-        min-width: none;
-        max-height: none;
-      }
+        
+        .darkCard{
+            min-width: none;
+            min-height: none;
+            max-width: 329px;
+            max-height: 393px;
+          }
       .cardGet{
         max-width: 329px;
         max-height: 393px;
