@@ -191,17 +191,12 @@ min-height: 50px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    border-radius: 52px;
 }
 
-.border-rad{
-
-    border-top-right-radius: 28px;
-    border-bottom-right-radius: 28px;
-
-    color: #fff;
-    background-color: #f9a826;
-    border-color: #f9a826;
+.border-rad{  
+ color: #fff;
+    background-color: #FFA62B;
+    border-color: #FFA62B
 }
 
 
