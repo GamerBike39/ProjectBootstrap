@@ -203,6 +203,10 @@ min-height: 50px;
     border-color: #FFA62B
 }
 
+.ms-44{
+    margin-left: 1.9rem;
+}
+
 
 
 @media screen and (max-width: 1432px) {
